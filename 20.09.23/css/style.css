@@ -1,0 +1,10 @@
+/* #perviy_otpravka{
+    display: none;
+}
+#vtoroy_otpravka{
+    display: none;
+} */
+
+.hidden{
+    display: none;
+}

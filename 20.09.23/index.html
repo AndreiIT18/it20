@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <div>
+            <form action="#" class="obshiy" id="obshiy">
+               
+                <select name="spisok" id="spis" aria-label="State" >
+                    <option value="1">Данные</option>
+                    <option value="2">Таблица</option>
+                </select>
+                <input type="button" value="send" onclick="obshak()">
+                <!-- <button >send</button> -->
+            </form>
+            <div id="perviy_otpravka" class="hidden">
+                
+                <input type="text"  id="ID_1" name="hhddh" readonly aria-label="State" placeholder="*"> 
+                <input type="text" id="Name_One" placeholder="Введите данные">
+                <input type="button" onclick="perviy()" value="send">
+            </div>
+            <div id="vtoroy_otpravka" class="hidden">
+              
+                <input type="number"  id="ID_2" readonly aria-label="State"> 
+                <input type="text" id="Name_Two" placeholder="Введите данные">
+                <input onclick="vtoroy()" value="send" type="button">
+            </div>
+            <div id="result">
+                <p id="result"></p>
+            </div>
+        </div>
+    </main>
+    <script src="js/js.js"></script>
+</body>
+</html>
